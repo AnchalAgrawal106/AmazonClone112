@@ -1,0 +1,81 @@
+*{
+    font-family: "Amazon Ember",Arial,sans-serif;
+    font-size: 17px;
+}
+.stripe{
+    height: 40px;
+    width: 100%;
+    background-color: #233140;
+    color: white;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.index{
+    display: flex;
+    margin-left: 20px;
+    font-weight: bold;
+    padding:2px 10px;
+    height:40px;
+    padding-top: 8px;
+}
+.liner1{
+    height: 2px;
+    width: 20px;
+    background-color: #fff;
+    margin-top: 4px;
+    margin-right: 8px;
+}
+
+.deals{
+    padding:5px 10px;
+    height: 38px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.deals:hover, .deals:visited, .deals:active, .index:hover{
+    border: 1px solid white;
+    text-decoration: none;
+    color: white;
+    border-bottom: none;
+}
+.deals span{
+    color: grey;
+    font-size: large;
+}
+.amazonPrime{
+    position: relative;
+}
+.hang{
+    position: absolute;
+    top: -33px;
+    right: 345px;
+    color: white;
+}
+.dropdown1{
+    position: absolute;
+    top: 110px;
+    right: 236px;
+    border: 18px solid white;
+    z-index: 1;
+    display: none;
+
+}
+
+.amazonPrime:hover + .dropdown1{
+    display: block;
+}
+.shopidea{
+    height: 38px;
+    margin-left: 120px;
+}
+.img{
+    height: 36px;
+    box-sizing: border-box;
+}
+.shopidea:hover{
+    box-shadow: 0 0 2px white;
+}
+
+

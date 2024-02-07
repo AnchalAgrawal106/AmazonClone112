@@ -1,0 +1,151 @@
+
+.navbar{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    background-color: #0F1111;
+    color: white;
+  }
+.imagelogo1{
+    height: 58px;
+    width: 180px;
+    display: flex;
+}
+
+.imagelogo2{
+    height: 58px;
+    width: 140px;
+    background-color: #0F1111;
+}
+
+.imagelogo3{
+    height: 30px;
+}
+.imagelogo4{
+    height: 30px;
+    width: 20px;
+    margin-bottom: 14px;
+    background-color: #0F1111;
+}
+
+.location2{
+    height: 100%;
+    width: 230px;
+    display: flex;
+    cursor: pointer;
+}
+
+.imagelogo5{
+    height: 25px;
+    margin-top: 20px;
+    margin-left: 5px;
+}
+.imagelogo1:hover, .location2:hover{
+    box-shadow: 0 0 0 2px white;
+    transform: scale(1.01);
+}
+
+.line3{
+    font-size: 15px;
+    color: grey;
+}
+
+.line4{
+    font-weight: bolder;
+    color: white;
+}
+  .searchItem3{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    justify-content: center;
+    width: 850px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: red;
+    margin-left: 8px;
+  }
+  .searchBar{
+    height: 50px;
+    width: 700px;
+    padding-left: 5px;
+    font-size: 20px;
+  }
+  
+  .btn{
+    background-color: lightgrey;
+    border-radius: 5px 0 0 5px;
+    height: 50px;
+    width: 100px;
+  }
+  
+  .btn:active, .searchBar:active{
+    box-shadow: 0 0 0 2px orange;
+  }
+  
+  .glassSearch{
+    height: 50px;
+    width: 50px;
+    padding-left: 5px;
+    background-color: rgb(215, 138, 71);
+     color: black;
+     transition: box-shadow ;
+     border-radius: 0 5px 5px 0;
+  }
+  .searchI{
+    margin: 11px 0 0 8px;
+    cursor: pointer;
+    position: fixed;
+  }
+  .glassSearch:active{
+    box-shadow: 0 0 0 2px rgb(215, 152, 37);
+  }
+  /* .glassSearch:hover{
+    box-shadow: 0 0 0 2px orange;
+  } */
+  .heading4{
+    display: flex;
+  }
+
+  .item1{
+    height: 55px;
+    width: 150px;
+    margin-left: 10px;
+    padding: 5px;
+    cursor: pointer;
+  }
+  .line1{
+    font-size: 14px;
+  }
+
+.line2{
+  font-weight: bold;
+  font-size: 17px;
+}
+.item2{
+  cursor: pointer;
+  height: 58px;
+  width: 90px;
+  padding: 6px 0 6px 12px;
+}
+
+.item2 div{
+  font-weight: bold;
+}
+.item3{
+  height: 58px;
+  width: 90px;
+  font-size: 20px;
+  padding: 5px 0 5px 5px;
+  cursor: pointer;
+}
+.cart{
+  font-size: 40px;
+
+}
+
+.item1:hover, .item2:hover, .item3:hover{
+  box-shadow: 0 0 0 2px white;
+  transform: scale(1.01);
+}
