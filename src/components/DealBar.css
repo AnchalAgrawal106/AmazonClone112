@@ -63,7 +63,7 @@
 
 }
 
-.amazonPrime:hover + .dropdown1{
+.amazonPrime:hover + .dropdown1, .dropdown1:hover{
     display: block;
 }
 .shopidea{

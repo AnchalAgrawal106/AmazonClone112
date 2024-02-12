@@ -20,7 +20,7 @@ function DealBar() {
                 <a href="#" className="deals">Electronics</a>
                 <a href="#" className="deals">Customer Service</a>
                 <a href="#" className="deals">New Releases</a>
-                <a href="#" className="deals amazomPrime">Prime <span>&#9662;</span> 
+                <a href="#" className="deals amazonPrime">Prime <span>&#9662;</span> 
                 </a>
                 <div className="dropdown1"> <div className="hang">&#9650;</div>
                   <a href="#"><img src="../Images/amazonPrime.jpg" alt="" /></a>

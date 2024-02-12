@@ -1,0 +1,53 @@
+.container {
+  display: inline-block;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  width: 100%;
+  border: none;
+}
+.slide1 {
+  width: 145%;
+  position: absolute;
+  top: -17px;
+  left: 0;
+  overflow: hidden;
+  transition: opacity 1s ease-in-out;
+}
+
+.prevButton {
+  position: absolute;
+  height: 300px;
+  width: 80px;
+  font-weight: inherit;
+  top: -18px;
+  left: 0;
+  border: none;
+  background: none;
+  font-size: 60px;
+}
+.nextButton {
+  position: absolute;
+  height: 300px;
+  width: 80px;
+  font-size: 70px;
+  font-weight: inherit;
+  top: -18px;
+  right: -514px;
+  border: none;
+  background: none;
+}
+.prevButton:visited, .nextButton:visited, .nextButton:active, .prevButton:active{
+    display: inline-block;
+    border: 2px solid rgb(11, 90, 168);
+    box-shadow: 0 0 2px white;
+
+}
+.prevButton:focus, .nextButton:focus{
+    outline: none;
+}
+
+::-webkit-scrollbar{
+ overflow: hidden;
+}
