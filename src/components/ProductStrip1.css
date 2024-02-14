@@ -1,0 +1,13 @@
+.cards-container{
+    position: relative;
+
+}
+
+.AdProduct{
+    position: absolute;
+}
+.ProductCard{
+    position: absolute;
+    top: 0;
+    right: 0;
+}

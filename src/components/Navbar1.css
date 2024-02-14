@@ -57,7 +57,6 @@
 }
   .searchItem3{
     display: flex;
-    /* justify-content: center; */
     align-items: center;
     justify-content: center;
     width: 850px;
@@ -101,16 +100,14 @@
   .glassSearch:active{
     box-shadow: 0 0 0 2px rgb(215, 152, 37);
   }
-  /* .glassSearch:hover{
-    box-shadow: 0 0 0 2px orange;
-  } */
+
   .heading4{
     display: flex;
   }
 
   .item1{
     height: 55px;
-    width: 150px;
+    width: 140px;
     margin-left: 10px;
     padding: 5px;
     cursor: pointer;
@@ -135,7 +132,7 @@
 }
 .item3{
   height: 58px;
-  width: 90px;
+  width: 85px;
   font-size: 20px;
   padding: 5px 0 5px 5px;
   cursor: pointer;

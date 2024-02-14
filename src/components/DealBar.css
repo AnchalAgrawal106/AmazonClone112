@@ -3,7 +3,7 @@
     font-size: 17px;
 }
 .stripe{
-    height: 40px;
+    height: 42px;
     width: 100%;
     background-color: #233140;
     color: white;
@@ -28,7 +28,7 @@
 }
 
 .deals{
-    padding:5px 10px;
+    padding:5px 8px;
     height: 38px;
     text-decoration: none;
     color: #fff;
@@ -56,7 +56,7 @@
 .dropdown1{
     position: absolute;
     top: 110px;
-    right: 236px;
+    right: 252px;
     border: 18px solid white;
     z-index: 1;
     display: none;

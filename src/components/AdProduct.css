@@ -6,6 +6,7 @@
   position: relative;
   width: 100%;
   border: none;
+  /* overflow-x: hidden; */
 }
 .slide1 {
   width: 145%;
@@ -13,7 +14,6 @@
   top: -17px;
   left: 0;
   overflow: hidden;
-  transition: opacity 1s ease-in-out;
 }
 
 .prevButton {
@@ -46,8 +46,4 @@
 }
 .prevButton:focus, .nextButton:focus{
     outline: none;
-}
-
-::-webkit-scrollbar{
- overflow: hidden;
-}
+  }
