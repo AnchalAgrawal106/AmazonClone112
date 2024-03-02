@@ -1,0 +1,33 @@
+body{
+    background-color: white; 
+}
+
+
+.contan1{
+    width: 350px;
+    height: 100vh;
+    margin-left: 12px;
+    padding-left: 2px;
+    display: inline-block;
+    background-color: white;
+
+}
+.delivery-fix{
+    margin-top: 2px;
+}
+.category-devs{
+
+    font-size: 18px;
+    font-weight: bold;
+}
+.productdevs{
+    font-size: 17px;
+    text-decoration: none;
+    color: black;
+    display: flow-root;
+}
+
+.productdevs:hover{
+    color: darkred;
+    text-decoration: none;
+}

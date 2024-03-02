@@ -46,26 +46,44 @@
 }
 .amazonPrime{
     position: relative;
+    display: inline-block;
 }
 .hang{
     position: absolute;
     top: -33px;
     right: 345px;
     color: white;
+    
 }
 .dropdown1{
     position: absolute;
     top: 110px;
     right: 252px;
     border: 18px solid white;
-    z-index: 1;
+    z-index: 1000;
     display: none;
-
+    z-index: 50;
 }
 
-.amazonPrime:hover + .dropdown1, .dropdown1:hover{
+.amazonPrime:hover + .dropdown1, .dropdown1:hover .overlay{
     display: block;
 }
+/* .amazonPrime::after{
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+    display: none;
+} */
+
+/* .amazonPrime:hover::after{
+    display: none;
+} */
+
 .shopidea{
     height: 38px;
     margin-left: 120px;

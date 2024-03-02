@@ -95,7 +95,7 @@
   .searchI{
     margin: 11px 0 0 8px;
     cursor: pointer;
-    position: fixed;
+    position: relative;
   }
   .glassSearch:active{
     box-shadow: 0 0 0 2px rgb(215, 152, 37);

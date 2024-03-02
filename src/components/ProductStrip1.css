@@ -1,3 +1,7 @@
+
+body{
+    background-color: white;
+}
 .cards-container{
     position: relative;
 
@@ -6,8 +10,13 @@
 .AdProduct{
     position: absolute;
 }
-.ProductCard{
-    position: absolute;
-    top: 0;
-    right: 0;
+.cardsContainer2{
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-top: 242px;
+    padding: 30px;
+    padding-left: 50px;
+    row-gap: 30px;
+    
 }

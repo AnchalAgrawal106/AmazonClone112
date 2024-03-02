@@ -1,17 +1,25 @@
-import { useState } from 'react'
+import React from "react";
 import './App.css'
+import ProductsDetail from './components/ProductsDetail'
 import Navbar from './components/Navbar'
 import DealBar from './components/DealBar'
-import ProductStrip1 from './components/ProductStrip1'
+import {BrowserRouter as Router, Routes, Route } from "react-router-dom"
+import ProductStrip1 from "./components/ProductStrip1";
+
 
 function App() {
   return (
-    <>
+   <>
+   <Router>
     <Navbar/>
     <DealBar/>
-    <ProductStrip1/>
-         </>
-  )
+    <Routes>
+      {/* <Route path= "/" element = {<ProductStrip1/>}/> */}
+      <Route path= "/" element = {<ProductsDetail/>}/>
+      </Routes>
+   </Router>
+   </>
+  );
 }
 
 export default App
