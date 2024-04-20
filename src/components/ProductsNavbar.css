@@ -1,0 +1,19 @@
+.other-products-bar{
+    height: 60px;
+    width: 100%;
+    border-bottom: 2px solid lightgray;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.product-area{
+    font-size: 14px;
+    cursor: pointer;
+}
+.product-area:hover{
+    box-shadow: 0 2px 0 0 orange;
+}
+.product-area:active{
+    font-weight: 600;
+}

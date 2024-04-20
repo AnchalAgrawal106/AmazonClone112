@@ -76,9 +76,6 @@ function ProductStrip1() {
     ]
     const floorMsg4 = ['End of season sale']
 
-
-
-
   return (
     <>
       <div className="cards-container">

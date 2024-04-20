@@ -33,6 +33,7 @@
     width: 160px;
     margin: auto;
     margin-top: -5px;
+    cursor: pointer;
 }
 .adText{
     font-size: 13px;
@@ -42,6 +43,7 @@
 .inlineCard a:hover{
     text-decoration: none !important;
     border-bottom: none;
+    cursor: pointer;
 }
 
 .inlineImg{
@@ -50,12 +52,13 @@
 }
 .floorMsg a{
     font-size: 16px;
-    /* text-align: right; */
     float: left;
     position: absolute;
     bottom: 12px;
     left: 14px;
+    cursor: pointer;
 }
 .floorMsg a:hover{
     color:red;
+    cursor: pointer;
 }
